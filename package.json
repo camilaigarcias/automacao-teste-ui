@@ -19,5 +19,9 @@
   "homepage": "https://github.com/camilaigarcias/automacao-teste-ui#readme",
   "devDependencies": {
     "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "faker": "^5.5.3"
   }
 }
