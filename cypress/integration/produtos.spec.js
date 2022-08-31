@@ -2,7 +2,7 @@
 
 describe('Funcionalidade página de produtos', () => {
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos')
     });
 
     it('Deve selecionar um produto da lista', () => {
@@ -15,7 +15,7 @@ describe('Funcionalidade página de produtos', () => {
     });
 
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var qtd = 2
         cy.get('[class="product-block grid"]')
             .contains('Ajax Full-Zip Sweatshirt')
@@ -28,6 +28,11 @@ describe('Funcionalidade página de produtos', () => {
         cy.get('.woocommerce-message').should('contain', qtd + ' × “Ajax Full-Zip Sweatshirt” foram adicionados no seu carrinho.')
 
 
+    });
+
+    it.only('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Arcadio Gym Short', '33', 'Red', 3)
+        
     });
 
 
