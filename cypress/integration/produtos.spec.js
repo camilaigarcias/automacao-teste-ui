@@ -30,7 +30,7 @@ describe('Funcionalidade página de produtos', () => {
 
     });
 
-    it.only('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
         cy.addProdutos('Arcadio Gym Short', '33', 'Red', 3)
         
     });

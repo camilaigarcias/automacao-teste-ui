@@ -1,0 +1,62 @@
+[
+
+{
+    "nome": "Francisco" ,
+    "sobrenome": "Guimarães",
+    "empresa": "Fazendinha do Chico" ,
+    "endereco": "Rua Barão de Cocais" , 
+    "numero": "10",
+    "pais": "Brasil",
+    "cidade": "Nova Era",
+    "estado": "Minas Gerais",
+    "cep": "35920000",
+    "telefone": "31985549810" ,
+    "email": "chicoguimaraes@lindo.com.br"
+
+},
+
+{
+    "nome": "Samuel" ,
+    "sobrenome": "Garcia",
+    "empresa": "Sou Hapaz" ,
+    "endereco": "Rua dos Rapazinhos" , 
+    "numero": "30",
+    "pais": "Brasil",
+    "cidade": "Ipatinga",
+    "estado": "Minas Gerais",
+    "cep": "35171338",
+    "telefone": "31986522512" ,
+    "email": "mumurapaz@nenem.com.br"
+},
+
+{
+    "nome": "Alice" ,
+    "sobrenome": "Garcia",
+    "empresa": "Ariel" ,
+    "endereco": "Rua dos sereias" , 
+    "numero": "03",
+    "pais": "Brasil",
+    "cidade": "Coronel Fabriciano",
+    "estado": "Minas Gerais",
+    "cep": "35171338",
+    "telefone": "31986522512" ,
+    "email": "sereiafeliz@mocinha.com.br"
+},
+
+{
+    "nome": "Luiz Inacio" ,
+    "sobrenome": "Lula da Silva",
+    "empresa": "Presidente do Brasil" ,
+    "endereco": "Palacio do Planalto" , 
+    "numero": "0210",
+    "pais": "Brasil",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal",
+    "cep": "35171338",
+    "telefone": "31986522512" ,
+    "email": "lulapresidente@bolsonaropreso.com.br"
+}
+
+
+
+]
